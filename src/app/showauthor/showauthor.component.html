@@ -1,1 +1,10 @@
-<app-authordata *ngFor="let alldata of dataset" [mydata]="alldata" ></app-authordata>
+<table>
+    <thead>
+        <th>Author ID</th>
+        <th>Name</th>
+        <th>Country</th>
+    </thead>
+    
+</table>
+
+<app-authordata *ngFor="let all of dataset" [mydata]="all"></app-authordata>
