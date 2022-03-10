@@ -18,5 +18,10 @@ export class MainService {
   {
     return this.http.get("http://localhost:4000/bookapi/books")
   }
+
+  getPeopleapi():Observable<object>
+  {
+    return this.http.get("http://localhost:4000/peopleapi/all")
+  }
 }
 

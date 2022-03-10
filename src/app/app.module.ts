@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AuthordataComponent } from './showauthor/authordata/authordata.component';
 import { BookdataComponent } from './showbook/bookdata/bookdata.component';
 import { New1Component } from './new1/new1.component';
+import { PeopledbComponent } from './new1/peopledb/peopledb.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { New1Component } from './new1/new1.component';
     LinksComponent,
     AuthordataComponent,
     BookdataComponent,
-    New1Component
+    New1Component,
+    PeopledbComponent
   ],
   imports: [
     BrowserModule,
