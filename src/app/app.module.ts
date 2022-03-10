@@ -11,6 +11,7 @@ import { AuthordataComponent } from './showauthor/authordata/authordata.componen
 import { BookdataComponent } from './showbook/bookdata/bookdata.component';
 import { New1Component } from './new1/new1.component';
 import { PeopledbComponent } from './new1/peopledb/peopledb.component';
+import { New2Component } from './new2/new2.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PeopledbComponent } from './new1/peopledb/peopledb.component';
     AuthordataComponent,
     BookdataComponent,
     New1Component,
-    PeopledbComponent
+    PeopledbComponent,
+    New2Component
   ],
   imports: [
     BrowserModule,
